@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="0dp">
+
+    <!--НЕПОНЯТНО ПО КАКОЙ ПРИЧИНЕ, НО КАСТОМИЗАЦИЯ ДИЗАЙНА ДЛЯ ИКОНКИ УВЕДОМЛЕНИЯ В NavigationDrawer
+    РАБОТАЕТ ТОЛЬКО ИЗ КОДА, ПОЭТОМУ В XML МОЖНО ПРАКТИЧЕСКИ ВОВСЕ НИЧЕГО НЕ ДЕЛАТЬ,
+    ГЛАВНОЕ ПРОСТО СОЗДАТЬ XML С ВЬЮШКАМИ БЕЗ ПАРАМЕТРОВ И УСТАНОВИТЬ ИХ В АЙТЕМЫ NavigationDrawer В XML ФАЙЛ,
+    А ВСЁ ОСТАЛЬНОЕ ДЕЛАТЬ В КОДЕ (У НАС ЭТО РЕАЛИЗОВАНО В КЛАССЕ BaseNavigationView (метод setUnreadNotificationItem(int count, TextView view) ))-->
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+</LinearLayout>

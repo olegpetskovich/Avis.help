@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "658952300057",
+    "firebase_url": "https://avishelp-1a779.firebaseio.com",
+    "project_id": "avishelp-1a779",
+    "storage_bucket": "avishelp-1a779.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658952300057:android:e147c919e143bc23",
+        "android_client_info": {
+          "package_name": "com.pinus.alexdev.avis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658952300057-d5i06325bbajrq1fruphce2eq6c1oo8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pinus.alexdev.avis",
+            "certificate_hash": "6d29d756254173403291f6b508ea566a093f2ba2"
+          }
+        },
+        {
+          "client_id": "658952300057-2bnt8grcc1j5ibhja7jpvm5er8kt9g6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8kPgARrpzqXuRRy7yF89CvU-6aZQMYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658952300057-2bnt8grcc1j5ibhja7jpvm5er8kt9g6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

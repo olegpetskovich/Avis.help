@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.marchinram:RxGallery:0.6.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/161f6cfc30de58de3fda4ff7478c2330/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/161f6cfc30de58de3fda4ff7478c2330/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/161f6cfc30de58de3fda4ff7478c2330/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01ec0bdf8b9a3661537cded354e313f6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01ec0bdf8b9a3661537cded354e313f6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01ec0bdf8b9a3661537cded354e313f6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.marchinram/RxGallery/0.6.6/e3d507c001dc9862b3fbc43a96e13533336ffd08/RxGallery-0.6.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ПОПРОБОВАТЬ СДЕЛАТЬ РОДИТЕЛЬСКИМ КЛАССОМ MaterialCardView,
+ЧТОБЫ МОЖНО БЫЛО СДЕЛАТЬ ЗКРУГЛЁННЫЕ УГЛЫ-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:layoutDirection="rtl"
+        android:stateListAnimator="@null"
+        android:text="Number"
+        android:textAllCaps="false"
+        android:textColor="@color/colorDark"
+        app:backgroundTint="@null"
+        app:icon="@drawable/ic_sort"
+        app:iconTint="@color/colorDark" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:stateListAnimator="@null"
+        android:text="Date"
+        android:textAllCaps="false"
+        android:textColor="@color/colorDark"
+        app:backgroundTint="@null" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:stateListAnimator="@null"
+        android:text="Rating"
+        android:textAllCaps="false"
+        android:textColor="@color/colorDark"
+        app:backgroundTint="@null" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAuthorization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:stateListAnimator="@null"
+        android:text="Authorization"
+        android:textAllCaps="false"
+        android:textColor="@color/colorDark"
+        app:backgroundTint="@null" />
+
+</LinearLayout>

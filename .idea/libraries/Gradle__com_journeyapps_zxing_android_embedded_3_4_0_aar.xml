@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.journeyapps:zxing-android-embedded:3.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff5038c312f2d88db8a55004e35bbf01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff5038c312f2d88db8a55004e35bbf01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff5038c312f2d88db8a55004e35bbf01/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/677cefcc6f2ed1643c579cab0b17969c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/677cefcc6f2ed1643c579cab0b17969c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/677cefcc6f2ed1643c579cab0b17969c/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/3.4.0/fbd59f49a0e7044be9751bc108ceec3c65aed849/zxing-android-embedded-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

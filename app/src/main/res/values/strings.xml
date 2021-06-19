@@ -1,0 +1,498 @@
+<resources>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="defualtPromoCount">30</string>
+
+    <string name="app_name">Avis.help</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="homeTitle">Home</string>
+    <string name="authRevieTitle">Authorized reviews</string>
+    <string name="anonRevieTitle">Anonymous reviews</string>
+
+    //login
+    <string name="forgotPass">Forgot password?</string>
+    <string name="loginButton">Log in</string>
+    <string name="mainDescriotionOfApp">Customer communication platform</string>
+    <string name="internet_connection">No internet connection</string>
+
+    //home
+    <string name="fromButton">From:</string>
+    <string name="toButton">To:</string>
+
+    <string name="selectYourBranchTitle">Select your branch</string>
+    <string name="todayButton">Today</string>
+    <string name="weekButton">Week</string>
+    <string name="monthButton">Month</string>
+
+    <string name="totalReviwTitle">Reviews</string>
+    <string name="totalConversationTitle">Chats</string>
+    <string name="overalRatingTitle">Overall rating</string>
+    <string name="statsTitle">Your stats</string>
+
+    <string name="tvChart">No data for the selected period</string>
+
+    //review list
+    <string name="detailsTitle">Details</string>
+    <string name="reviewIdTitle">Review #</string>
+    <string name="createdTitle">Created</string>
+    <string name="viewedTitle">Viewed</string>
+    <string name="answeredTitle">Answered</string>
+
+    <string name="answeredItem">Answered</string>
+    <string name="unansweredItem">Unanswered</string>
+
+    <string name="vieweddItem">Viewed</string>
+    <string name="unviewedItem">Unviewed</string>
+
+    //InfoRevie
+    <string name="createdReviewTitle">Created at</string>
+    <string name="viwedReviwedTitle">Viewed </string>
+    <string name="branchRevieTitle">Branch:</string>
+    <string name="qrRevieTitle">QR-code</string>
+    <string name="impressionRevieTitle">General impression</string>
+    <string name="telephoneReviewTitle">Telephone:</string>
+    <string name="commentRevieTitle">Comment</string>
+    <string name="photoRevieTitle">Photo</string>
+    <string name="executionReviewTitle">Execution status</string>
+    <string name="newRevieTitle">New</string>
+    <string name="inProgressRevieTitle">In Progress</string>
+    <string name="closedRevieTitle">Closed</string>
+    <string name="addCommentRevieTitle">Add comment</string>
+    <string name="goToConversationButton">Go to conversation</string>
+    <string name="goConversationTitle">Conversations</string>
+    <string name="goAuthRevieTitle">Authorized reviews</string>
+    <string name="goAnonRevieTitle">Anonymous reviews</string>
+    <string name="goToRevieTitle">Go to review</string>
+    <string name="profileTitle">Profile</string>
+
+    //anon review
+    <string name="noNumberTitle">No</string>
+
+    //Profile screen
+    <string name="addAvatarButton">Add photo</string>
+    <string name="saveButton">Save</string>
+    <string name="btnSaveName">Save name</string>
+    <string name="logoutButton"><u>SIGN OUT</u></string>
+    <string name="avatarHint">JPG and PNG only, at least 400x400 pixels</string>
+    <string name="emailTitle">Email</string>
+    <string name="currentPassTitle">Current password*</string>
+    <string name="nameTitle">Name</string>
+    <string name="surnameTitle">Surname</string>
+    <string name="telephoneNumberTitle">Telephone: </string>
+
+    //company
+    <string name="enterCompanyName">Enter company name</string>
+    <string name="companyTitle">Company</string>
+    <string name="branchesTitle">Branches</string>
+    <string name="btnAddBranch">ADD A BRANCH +</string>
+    <string name="addBranchButtonG">Add a branch</string>
+    <string name="addBranchButton"><u>Add a branch +</u></string>
+    <string name="addBranchButtonH"><u>Add a branch -</u></string>
+    <string name="yourBranchTitle">Your branch</string>
+    <string name="generalQrCompanyName">General</string>
+    <string name="cleannessQrCompanyName">Cleanliness</string>
+    <string name="serviceQrCompanyName">Service</string>
+    <string name="downloadButtonCompanyName">Download</string>
+
+
+    <string name="createBranchName">Enter Branch name</string>
+    <string name="createAddressName">Enter Branch address</string>
+    <string name="createContactName">Contact person</string>
+    <string name="createPhoneName">Enter contact number</string>
+
+
+    //menu
+    <string name="menuHome">Home</string>
+    <string name="menuReview">Reviews</string>
+    <string name="menuAnonRev">Anonymous reviews</string>
+    <string name="menuChats">Conversations</string>
+    <string name="menuCompany">Company</string>
+    <string name="menuPromoCodes">Promo codes</string>
+    <string name="menuProfile">Profile</string>
+    <string name="menuBilling">Billing</string>
+    <string name="menuSettings">Settings</string>
+
+    //promocode
+    <string name="promoCodeTitle">Promo codes</string>
+    <string name="createPromoTitle">Create a new promo code</string>
+    <string name="namePromoHint">Create a name</string>
+    <string name="descriptionNameHint">Create a description.</string>
+    <string name="validPromoTitle">Valid for</string>
+    <string name="daysTitle">days</string>
+    <string name="addIconPromoButton">Add an icon</string>
+    <string name="chooseIconPromoButton">Choose your icon</string>
+
+    <string name="existPromoTitle">Your promo codes</string>
+
+    <string name="enterPhoneNumberHint">Enter phone number</string>
+    <string name="sendPhoneNumberHint">Send</string>
+    <string name="sendPromoCodeText">Send promo code</string>
+    <string name="promoCodeSent">Promo code sent</string>
+
+    //view promo qr
+    <string name="goToPromoCodes">Promo codes</string>
+    <string name="promoCodesTitle">Promo code</string>
+    <string name="dueDateTitle">Date: </string>
+
+    //conversation
+    <string name="conversationtitle">Chats</string>
+    <string name="bactToRevieButton">Go to review</string>
+    <string name="hintWriteTextConversation">Type a content</string>
+
+    <string name="inviteTitle">INVITE TO CHAT</string>
+    <string name="imviteText">Invite string link</string>
+
+
+    <string name="addIconTitle">Add an icon</string>
+
+    //scan qr
+    <string name="applyButton">Apply</string>
+    <string name="scanQrDescription">To scan the QR code, hold the device so that it is within the frame</string>
+
+    //settings
+    <string name="settingsTitle">Settings</string>
+    <string name="languageTitle">Language</string>
+    <string name="currencyTitle">Currency</string>
+    <string name="notificationsTitle">Notifications</string>
+    <string name="frenchTitle">French</string>
+    <string name="ukraineTitle">Українська</string>
+    <string name="englishTitle">English</string>
+    <string name="russianTitle">Русский</string>
+
+
+    //Toast
+    <string name="deleteBranchQ">Delete branch and all related reviews, are you sure?</string>
+    <string name="saveCommentToast">"Your Comment was saved"</string>
+    <string name="wrongLogin">Wrong login/password</string>
+    <string name="authorized">You are authorized</string>
+    <string name="invalidPromo">Invalid promo code</string>
+    <string name="promoDeactivatQ">Promo code deactivated</string>
+    <string name="fillAllFields">Please fill all the missing fields</string>
+    <string name="connexionToInternet">Data retrieval error. Check internet connection</string>
+    <string name="inviteChat">You are invited to the chat with</string>
+    <string name="promoDeleted">Promo code has been deleted</string>
+    <string name="promoAdedd">Promo code has been added</string>
+    <string name="branchAdd">Branch has been added</string>
+    <string name="profileUpdated">Profile has been updated</string>
+    <string name="companyAdd">Company has been added</string>
+    <string name="branchDelete">Branch has been deleted</string>
+    <string name="photoUpload">Logo( for company page)/ photo (for profile page) uploaded</string>
+    <string name="error">Aww... Don\'t cry, here\'s whats wrong:</string>
+    <string name="newNotif">New notification</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="_0">cookie</string>
+    <string name="_1">fish</string>
+    <string name="_2">hotdog</string>
+    <string name="_3">hamburger</string>
+    <string name="_4">pizza-slice</string>
+    <string name="_5">comment-medical</string>
+    <string name="_6">hand-middle-finger</string>
+    <string name="_7">award</string>
+    <string name="_8">bed</string>
+    <string name="_9">beer</string>
+    <string name="_10">bowling-ball</string>
+    <string name="_11">box-open</string>
+    <string name="_12">cocktail</string>
+    <string name="_13">coffee</string>
+    <string name="_14">concierge-bell</string>
+    <string name="_15">capsules</string>
+    <string name="_16">couch</string>
+    <string name="_17">dumbbell</string>
+    <string name="_18">dolly</string>
+    <string name="_19">film</string>
+    <string name="_20">first-aid</string>
+    <string name="_21">gas-pump</string>
+    <string name="_22">gamepad</string>
+    <string name="_23">gift</string>
+    <string name="_24">gem</string>
+    <string name="_25">glass-cheers</string>
+    <string name="_26">glass-whiskey</string>
+    <string name="_27">globe-americas</string>
+    <string name="_28">grin-alt</string>
+    <string name="_29">hand-holding-heart</string>
+    <string name="_30">heart</string>
+    <string name="_31">heartbeat</string>
+    <string name="_32">ice-cream</string>
+    <string name="_33">info-circle</string>
+    <string name="_34">mars-double</string>
+    <string name="_35">mars-stroke-v</string>
+    <string name="_36">microphone</string>
+    <string name="_37">money-bill</string>
+    <string name="_38">mug-hot</string>
+    <string name="_39">oil-can</string>
+    <string name="_40">parking</string>
+    <string name="_41">plane</string>
+    <string name="_42">receipt</string>
+    <string name="_43">ship</string>
+    <string name="_44">shipping-fast</string>
+    <string name="_45">shopping-cart</string>
+    <string name="_46">shuttle-van</string>
+    <string name="_47">skating</string>
+    <string name="_48">snowboarding</string>
+    <string name="_49">skiing</string>
+    <string name="_50">socks</string>
+    <string name="_51">spa</string>
+    <string name="_52">star</string>
+    <string name="_53">subway</string>
+    <string name="_54">suitcase</string>
+    <string name="_55">swimmer</string>
+    <string name="_56">tag</string>
+    <string name="_57">table-tennis</string>
+    <string name="_58">theater-masks</string>
+    <string name="_59">ticket-alt</string>
+    <string name="_60">tooth</string>
+    <string name="_61">transgender</string>
+    <string name="_62">train</string>
+    <string name="_63">trophy</string>
+    <string name="_64">user-clock</string>
+    <string name="_65">user-graduate</string>
+    <string name="_66">user-md</string>
+    <string name="_67">vr-cardboard</string>
+    <string name="_68">wrench</string>
+    <string name="smsicon">comments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your content history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New content notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="all_branches">All branches</string>
+    <string name="branches">All branches</string>
+    <string name="nps_no_data">No data</string>
+    <string name="nps_score">NPS score</string>
+
+    <string name="tv_promoters">Promoters</string>
+    <string name="tv_passives">Passives</string>
+    <string name="tv_detractors">Detractors</string>
+    <string name="hint_sign_in">Sign in</string>
+    <string name="hint_sign_in_with_fb">Sign in with Facebook</string>
+    <string name="hint_sign_in_with_google">Sign in with Google</string>
+    <string name="hint_or">OR</string>
+
+    <string name="tv_dont_have_account">Don\'t have an account?</string>
+    <string name="btn_sign_up"><u>Sign up</u></string>
+
+    <string name="hint_sign_up">Sign up</string>
+    <string name="hint_sign_up_with_fb">Sign up with Facebook</string>
+    <string name="hint_sign_up_with_google">Sign up with Google</string>
+
+    <string name="tv_have_account">Have an account?</string>
+    <string name="btn_sign_in"><u>Sign in</u></string>
+    <string name="password_quantity">min 6 symbols</string>
+    <string name="select">Select</string>
+    <string name="selectPoint">Select one of the point</string>
+    <string name="selectChartType">Select rating</string>
+    <string name="tvGoToWeb">Go to the web version to manage your branches</string>
+
+    <string name="tvImageForReviewPage">The photo will be displayed on a chat page with your clients</string>
+    <string name="tvBranchGoToWeb">Go to desktop version to manage your branches</string>
+    <string name="btnSAVE">Save</string>
+    <string name="branchQRs">Branch QRs</string>
+    <string name="toast_field_can_not_be_empty">Field can not be empty</string>
+    <string name="tvCompanyRegistration">Company registration</string>
+    <string name="team">Team</string>
+    <string name="urgent_action_required">Urgent action required</string>
+    <string name="tvPressTheButton">Press button\nwhen you have fixed the issue</string>
+    <string name="btnDone">DONE</string>
+    <string name="tvPhotoForChat">This image will be used in chats with your clients</string>
+    <string name="changePassword">Change password</string>
+    <string name="new_password">New password</string>
+    <string name="hint_enter_your_password">Enter your password</string>
+    <string name="hint_enter_new_password">Enter new password</string>
+    <string name="hint_confirm_new_password">Confirm new password</string>
+    <string name="tv_splash_screen">Customer\ncommunication\nplatform</string>
+    <string name="tv_billing">Go to the web version to manage your billing</string>
+    <string name="tv_team">Go to the web version to manage your team</string>
+    <string name="btnFilter">Filter</string>
+    <string name="btnSort">Sort</string>
+    <string name="qrCategory">QR category:</string>
+    <string name="tvRating">Rating:</string>
+    <string name="tvComment">Comment:</string>
+    <string name="enterComment">Enter a comment</string>
+    <string name="branch">Branch</string>
+    <string name="newReview">New review</string>
+    <string name="newMessage">New content in chat</string>
+    <string name="newCTA">Urgent action required!</string>
+    <string name="addPromoCode">Add promo code +</string>
+    <string name="enterName">Enter Name</string>
+    <string name="enterDescription">Enter a description (max 200 symbols)</string>
+    <string name="selectIcon">Select an icon</string>
+    <string name="menuQRManager">QR manager</string>
+    <string name="cancelAction">Cancel</string>
+    <string name="scrollToBottom">Scroll to bottom to see restored item</string>
+    <string name="removedFromPromoCodes">removed from promo codes</string>
+    <string name="termsConditions">Terms and conditions</string>
+    <string name="ctaTitle">CTA</string>
+    <string name="surveyTitle">Survey</string>
+    <string name="opinionTitle">Opinion</string>
+    <string name="landingPageTitle">Landing page</string>
+    <string name="callToActionTitle">Call to action</string>
+    <string name="selectQrType">Select a QR type</string>
+    <string name="addQrCode">Add QR code +</string>
+    <string name="invite">Invite</string>
+    <string name="absolutely_sure">ARE YOU ABSOLUTELY SURE?</string>
+    <string name="action_cannot_be_undone">This action CANNOT be undone.\nThis will permanently delete</string>
+    <string name="type_word_delete">Please type below DELETE to confirm</string>
+    <string name="DELETE">DELETE</string>
+    <string name="applyPromoCode">Apply promo code</string>
+    <string name="applyPromoCodeSmall">Apply promo code</string>
+    <string name="available_soon">Available soon</string>
+    <string name="enterQRName">Enter QR Name</string>
+    <string name="enterQuestion">Enter a question (max 600 symbols)</string>
+    <string name="enter_success_message">Enter success content (up to 50 symbols)</string>
+    <string name="enter_an_answer">Enter an Answer (max 50 symbols)</string>
+    <string name="addAnswer">Add an Answer</string>
+    <string name="editAnswer">Edit an Answer</string>
+    <string name="enter_promo_code_id">Enter Promo code ID</string>
+    <string name="btnApply">Apply</string>
+    <string name="code_id_should_be_six_numbers">The ID code must consist of 6 numbers and contain only capital letters</string>
+    <string name="usage_of_the_app">Usage of the app</string>
+    <string name="usage_of_the_app_text">The app avis.help allows you to upload your own materials for personal non-commercial use, provided that you retain all copyright information and other information about the ownership of the source materials and any copies thereof. You may not modify the materials on this App, or distribute or display them in any way, or use them in any other way for public or commercial purposes.Any use of these materials on other apps or on computer networks is prohibited.</string>
+    <string name="denial_of_responsibility">Denial of responsibility</string>
+    <string name="denial_of_responsibility_app">The materials and services of this app are provided \'as is\' without any warranty by the users themselves. We do not guarantee the accuracy and completeness of materials, images and comments. We may make changes to the materials and services provided on this app at any time without notice. In the case of obsolescence of materials and services on this app - we are not obliged to update them. We are not under any circumstances liable for any damages (including but not limited to damages from loss of profits, data or business interruption) arising from the use, inability to use or the results of using this app.</string>
+    <string name="posting_messages_on_the_app">Posting messages on the app</string>
+    <string name="posting_messages_on_the_app_text">By contacting us or leaving a content on the app, you are responsible for the fact that such a content is legal, non-dangerous, is not a threat, does not bear the nature of slander, does not contradict ethics, does not violate copyright, does not encourage hatred and / or discrimination against people on racial, ethnic, sexual, religious or social grounds, does not contain insults against certain individuals or organizations and does not violate in any other way the current legislation of the EU and the USA and / or other countries within which the materials and services of this app are available. We are not responsible for any information posted by other users of the app. Leaving a review from 9:00 am to 9:00 pm with confirmation of your mobile phone number, you agree to receive an answer by SMS in the present time period.</string>
+    <string name="feedback_and_comments">Feedback and comments</string>
+    <string name="feedback_and_comments_text">Addressing us or leaving a content on the app, you are responsible that the content is not illegal, harmful, threatening, slanderous, offends morality, violates copyrights, promotes hatred and / or discrimination of people for racial, ethnic, sexual, religious, social featured, contains insults to specific individuals or organizations, as well as in any other way violates the current legislation of the EU countries and the USA and / or other countries in whose territory the mat Series and services of this app. You agree that any of your messages can be deleted without your consent, as well as left unanswered without explanation. We are not responsible for any other information posted by other users of the app. Leaving a review from 9:00 am to 9:00 pm and confirming your mobile phone number, you consent to feedback from you, in a given period of time, via SMS.</string>
+    <string name="use_of_personal_data">Use of personal data</string>
+    <string name="use_of_personal_data_text">By using our product, you agree to the use of your data in accordance with the current laws of the EU countries (RGPD 2018) and the United States and / or other countries on whose territory the materials and services of this app are available. We collect the following personal data: name; surname; phone number; a photo. We do not collect personal information other than that necessary for the purpose of providing and improving our products / services. We do not sell personal user data, and use the information we collect solely to provide and improve our products and services. We share your personal data with our suppliers / customers. We conclude agreements on confidentiality and data processing with each of our suppliers / customers to ensure that they adhere to a high level of confidentiality and effective methods, standards of privacy and security. For more information on how our suppliers / customers or their end customers use the information they collect using our products and services, you can refer to their specific privacy policy or contact such company directly.</string>
+    <string name="data_storage">Data storage</string>
+    <string name="data_storage_text">We store your personal data as long as they are necessary for the purposes for which they were originally collected, or for a period established by applicable law. For information on the storage policies of our suppliers / customers or their end customers, contact the appropriate company.</string>
+    <string name="you_cant_save_empty_field">You can not save an empty field</string>
+    <string name="menuCTA">CTA</string>
+    <string name="tvClickedCount">Clicked</string>
+    <string name="reaction_time_avg">Reaction time (avg)</string>
+    <string name="allReviews">Reviews</string>
+    <string name="allChats">Conversations</string>
+    <string name="tvGeneratedQRs">Generated QRs</string>
+    <string name="enterPromoName">Enter name</string>
+    <string name="tvImageForCompany">The image will be displayed on your review page if Branch doesn\'t have a logo</string>
+    <string name="tvImageForBranch">The image will be displayed on your review page</string>
+    <string name="enterSurname">Enter Surname</string>
+    <string name="enterContactNumber">Enter contact number</string>
+    <string name="selectLanguage">Select language</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="password_changed_successfully">Password changed successfully</string>
+    <string name="password_must_contain_from_six_to_twenty">Password must contain from 6 to 20 characters</string>
+    <string name="choose_category">Select a category</string>
+    <string name="code_does_not_exist">This code does not exist</string>
+    <string name="branchSaved">Branch saved</string>
+    <string name="editBranch">Edit branch</string>
+    <string name="qrDeleted">Qr code deleted</string>
+    <string name="choose_branch">Choose branch</string>
+    <string name="answer_deleted">Answer deleted</string>
+    <string name="answer_edited">Answer edited</string>
+    <string name="answer_added">Answer added</string>
+    <string name="cta_is_added">CTA QR is created</string>
+    <string name="you_didnt_select_branch">You didn\'t select a branch</string>
+    <string name="you_didnt_write_name_for_qr">You didn\'t write a name</string>
+    <string name="you_didnt_add_answers">You didn\'t add answers</string>
+    <string name="add_or_select_answers">Add or select Answers</string>
+    <string name="you_didnt_select_answers">You didn\'t select answers</string>
+    <string name="add_or_select_qr_category">Add or select Qr category</string>
+    <string name="addCategory">Add category</string>
+    <string name="editCategory">Edit category</string>
+    <string name="category_added">Category added</string>
+    <string name="category_edited">Category edited</string>
+    <string name="category_deleted">Category deleted</string>
+    <string name="opinion_is_added">Opinion is added</string>
+    <string name="enter_qr_category_name">Enter QR Category Name</string>
+    <string name="qr_updated">Qr updated</string>
+    <string name="email_field_must_be_filled">Email field must be filled</string>
+    <string name="тew_password_sent">New password sent by email</string>
+    <string name="edit_answers_spinner">Edit answers list</string>
+    <string name="image_saved">Image saved</string>
+    <string name="organization_is_added">Organization added</string>
+    <string name="categories">Categories</string>
+    <string name="qrs">QRs</string>
+    <string name="branch_deleted">Branch deleted</string>
+    <string name="invitation_completed">Invitation completed</string>
+    <string name="chat_with">Chat with</string>
+    <string name="you_havent_access">You haven\'t access</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#ff979797</color>
+    <color name="colorGrayLight">#C9C9C9</color>
+    <color name="colorAccent">#ffeeeeee</color>
+    <color name="colorWhite">#ffffffff</color>
+    <color name="colorDark">#ff575e6e</color>
+    <color name="colorPrimary">#ffea5959</color>
+    <color name="greenStatus">#549B2F</color>
+
+    <color name="colorDarkerGreenNPS">#22AA57</color>
+    <color name="colorLightGreenNPS">#3CC274</color>
+    <color name="colorYellowNPS">#F9B63D</color>
+    <color name="colorRedNPS">#F16E65</color>
+</resources>

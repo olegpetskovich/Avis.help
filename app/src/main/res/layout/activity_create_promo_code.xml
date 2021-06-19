@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".view.promo_code_activity.CreatePromoCodeActivity">
+
+    <include
+        android:id="@+id/appbar_back"
+        layout="@layout/appbar_back"
+        android:visibility="visible" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar_back"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/promoNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="true"
+            android:hint="@string/enterPromoName"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/edit_text_cursor_color"
+            android:textSize="14sp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:fitsSystemWindows="true"
+            android:focusableInTouchMode="true"
+            app:hintAnimationEnabled="false">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/descriptionInput"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@android:color/transparent"
+                android:gravity="start"
+                android:hint="@string/enterDescription"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLength="200"
+                android:overScrollMode="always"
+                android:padding="14dp"
+                android:paddingBottom="25dp"
+                android:textCursorDrawable="@drawable/edit_text_cursor_color"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tvCountCharacters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card2"
+        android:layout_alignEnd="@+id/card2"
+        android:layout_marginEnd="10dp"
+        android:text="200"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card2"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/validPromoTitle"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/promoValidText"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:paddingStart="8dp"
+                android:paddingTop="4dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="4dp"
+                android:singleLine="true"
+                android:text="30"
+                android:textCursorDrawable="@drawable/edit_text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:text="@string/daysTitle"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/iconCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/selectIcon"
+                android:textSize="14sp" />
+
+            <com.pinus.alexdev.avis.Helper.IconTextView
+                android:id="@+id/addIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/_23"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/right_arrow" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.dagang.library.GradientButton
+        android:id="@+id/savePromoButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/iconCard"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        app:button_end_color="#ffe95858"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="true"
+        app:button_press_end_color="#F38585"
+        app:button_press_start_color="#F38585"
+        app:button_radius="30dp"
+        app:button_shadow_angle="90"
+        app:button_shadow_color="@android:color/darker_gray"
+        app:button_shadow_distance="1dp"
+        app:button_shadow_radius="3dp"
+        app:button_size="7sp"
+        app:button_start_color="#fff69191"
+        app:button_text="@string/saveButton"
+        app:button_text_color="@android:color/white" />
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer_button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".view.company_activity.CompanyActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar"
+        android:visibility="visible" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:layout_gravity="start"
+        android:focusableInTouchMode="true">
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nvViewCompanyRegistration"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/colorAccent"
+            app:itemTextColor="@color/colorPrimaryDark"
+            app:menu="@menu/drawer_menu"/>
+
+        <LinearLayout
+            android:id="@+id/cardViewRootItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/appbar_back">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/avatarImage"
+                        android:layout_width="119dp"
+                        android:layout_height="119dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/company_logo"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                        app:layout_constraintStart_toStartOf="@+id/imageView3"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="147dp"
+                        android:layout_height="147dp"
+                        android:src="@drawable/photo_circle"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/tvReviewPagePhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/tvImageForReviewPage"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/etLoginLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="12dp"
+                    app:cardCornerRadius="9dp"
+                    app:cardElevation="2dp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/loginLogo">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/companyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/enterCompanyName"
+                        android:inputType="textCapSentences"
+                        android:padding="14dp"
+                        android:singleLine="true"
+                        android:textCursorDrawable="@drawable/edit_text_cursor_color"
+                        android:textSize="14sp" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.dagang.library.GradientButton
+                    android:id="@+id/btnSaveOrganizationName"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="30dp"
+                    app:button_end_color="#ffe95858"
+                    app:button_gradient_orientation="LEFT_RIGHT"
+                    app:button_is_shadowed="true"
+                    app:button_press_end_color="#F38585"
+                    app:button_press_start_color="#F38585"
+                    app:button_radius="30dp"
+                    app:button_shadow_angle="90"
+                    app:button_shadow_color="@android:color/darker_gray"
+                    app:button_shadow_distance="1dp"
+                    app:button_shadow_radius="3dp"
+                    app:button_size="7sp"
+                    app:button_start_color="#fff69191"
+                    app:button_text="@string/btnSaveName"
+                    app:button_text_color="@android:color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnForgotPassword" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            android:id="@+id/footer"
+            layout="@layout/footer_button_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/branchListView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-5dp" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

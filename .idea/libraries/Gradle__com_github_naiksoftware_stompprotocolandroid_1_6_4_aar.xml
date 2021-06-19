@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.naiksoftware:stompprotocolandroid:1.6.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcd157b27479dec8587ff3d6186359a6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcd157b27479dec8587ff3d6186359a6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcd157b27479dec8587ff3d6186359a6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9492544b6c68ca35822f11119266861/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9492544b6c68ca35822f11119266861/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9492544b6c68ca35822f11119266861/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.naiksoftware/stompprotocolandroid/1.6.4/15eea87cd7d0698f5ebf108464a36718a451c8c0/stompprotocolandroid-1.6.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

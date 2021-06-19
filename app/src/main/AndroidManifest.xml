@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pinus.alexdev.avis">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".utils.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".view.qr_manager_activity.QrInfoActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".view.PhotoCropActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.cta_activity.CTAInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.cta_activity.CTAActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.BranchFilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.settings_activity.TermsOfUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.qr_manager_activity.AddOrEditAnswerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.qr_manager_activity.AddOrEditCategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.qr_manager_activity.CallToActionQRActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.qr_manager_activity.LandingPageQRActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.qr_manager_activity.SurveyQRActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.promo_code_activity.ApplyPromoCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.review_list_activity.ImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.conversation_activity.InviteToChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.qr_manager_activity.OpinionQRActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.qr_manager_activity.QRManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.settings_activity.NotificationsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.promo_code_activity.CreatePromoCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.team_activity.TeamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.billing_activity.BillingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.profile_activity.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.CTADialogActivity"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" />
+        <activity android:name=".view.company_activity.CompanyRegistrationActivity" />
+        <activity
+            android:name=".view.company_activity.AddBranchActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".view.BranchChartListActivity" />
+        <activity android:name=".view.SignUpActivity" />
+        <activity
+            android:name=".view.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.promo_code_activity.SendPromoCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.CustomScannerActivity" />
+        <activity
+            android:name=".view.settings_activity.SettingsActivity"
+            android:parentActivityName=".view.home_activity.HomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.settings_activity.LanguagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.promo_code_activity.IconsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.conversation_activity.ConversationActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.home_activity.HomeActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".view.conversation_activity.ConversationListReviewsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".view.promo_code_activity.PromoCodesActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".view.company_activity.CompanyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".view.profile_activity.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".view.review_list_activity.InfoReviewActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.home_activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".view.review_list_activity.ReviewsListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.home_activity.HomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".view.BaseNavigationView" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.pinus.alexdev.avis.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service android:name=".FCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

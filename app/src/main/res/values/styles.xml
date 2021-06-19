@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <!--Атрибут, который делает приложение в полном экране без шторки сверху-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+
+    </style>
+
+    <style name="MyEditTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlActivated">#ffea5959</item>
+        <item name="colorControlNormal">#ffeeeeee</item>
+        <item name="colorControlHighlight">#ffea5959</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#ffeeeeee</item>
+    </style>
+
+    <style name="DividerDark">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#ff575e6e</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="ImageRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+        <item name="android:minHeight">42dp</item>
+        <item name="android:maxHeight">42dp</item>
+
+    </style>
+
+    <style name="AppThemeС" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorControlHighlight">@color/colorDark</item>
+    </style>
+
+    <style name="ProgressStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="mytoast">
+        <item name="stTextColor">@color/colorWhite</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stColorBackground">@color/primary</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">1dp</item>
+        <item name="stStrokeColor">@color/primary</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+    </style>
+
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fasolid.ttf</item>
+    </style>
+
+    <style name="SwitchCompatTheme" >
+        <item name="colorControlActivated">@color/primary</item>
+    </style>
+
+    <style name="MyCustomButtonStyle" parent="Widget.AppCompat.Button.Borderless"/>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+</resources>

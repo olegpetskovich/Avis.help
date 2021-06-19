@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nvViewPromo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorAccent"
+        app:itemTextColor="@color/colorPrimaryDark"
+        app:menu="@menu/drawer_menu" />
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.promo_code_activity.PromoCodesActivity">
+
+        <include
+            android:id="@+id/appbar_back"
+            layout="@layout/appbar"
+            android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="45dp"
+                android:layout_below="@id/appbar_back"
+                android:orientation="vertical">
+
+                <com.dagang.library.GradientButton
+                    android:id="@+id/btnAddPromoCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="30dp"
+                    app:button_end_color="#ffe95858"
+                    app:button_gradient_orientation="LEFT_RIGHT"
+                    app:button_is_shadowed="true"
+                    app:button_press_end_color="#F38585"
+                    app:button_press_start_color="#F38585"
+                    app:button_radius="30dp"
+                    app:button_shadow_angle="90"
+                    app:button_shadow_color="@android:color/darker_gray"
+                    app:button_shadow_distance="1dp"
+                    app:button_shadow_radius="3dp"
+                    app:button_size="5sp"
+                    app:button_start_color="#fff69191"
+                    app:button_text="@string/addPromoCode"
+                    app:button_text_color="@android:color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnForgotPassword" />
+
+                <com.dagang.library.GradientButton
+                    android:id="@+id/btnApplyPromoCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="30dp"
+                    app:button_end_color="#ffe95858"
+                    app:button_gradient_orientation="LEFT_RIGHT"
+                    app:button_is_shadowed="true"
+                    app:button_press_end_color="#F38585"
+                    app:button_press_start_color="#F38585"
+                    app:button_radius="30dp"
+                    app:button_shadow_angle="90"
+                    app:button_shadow_color="@android:color/darker_gray"
+                    app:button_shadow_distance="1dp"
+                    app:button_shadow_radius="3dp"
+                    app:button_size="5sp"
+                    app:button_start_color="#fff69191"
+                    app:button_text="@string/applyPromoCode"
+                    app:button_text_color="@android:color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnForgotPassword" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        <include
+            android:id="@+id/footer"
+            layout="@layout/footer_button_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+        <ProgressBar
+            android:id="@+id/progress_barM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/ProgressStyle"
+            android:visibility="invisible"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

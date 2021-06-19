@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nvViewAuthReviewList"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorAccent"
+        app:itemTextColor="@color/colorPrimaryDark"
+        app:menu="@menu/drawer_menu" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.review_list_activity.ReviewsListActivity">
+
+        <include
+            android:id="@+id/appbar_back"
+            layout="@layout/appbar"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:elevation="15dp"
+            android:fillViewport="true"
+            android:gravity="bottom"
+            android:paddingBottom="1dp">
+
+            <ImageButton
+                android:id="@+id/scanQrButton"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:paddingBottom="1dp"
+                android:src="@drawable/scanqr" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar_back">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/colorAccent" />
+
+                    <LinearLayout
+                        android:id="@+id/linLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnFilter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:stateListAnimator="@null"
+                            android:text="@string/btnFilter"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorDark"
+                            app:backgroundTint="@null"
+                            app:icon="@drawable/ic_filter"
+                            app:iconGravity="textStart"
+                            app:iconTint="@color/colorDark" />
+
+                        <View
+                            android:id="@+id/viewBetweenButtons"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnSort"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layoutDirection="rtl"
+                            android:stateListAnimator="@null"
+                            android:text="@string/btnSort"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorDark"
+                            app:backgroundTint="@null"
+                            app:icon="@drawable/ic_sort"
+                            app:iconGravity="textStart"
+                            app:iconTint="@color/colorDark" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/linLay"
+                        android:background="@color/colorAccent" />
+
+                    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                        android:id="@+id/swipeRefresh"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/view"
+                        android:layout_marginBottom="50dp">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentBottom="true"
+    android:elevation="15dp"
+    android:fillViewport="true"
+    android:gravity="center_vertical|center_horizontal|bottom"
+    android:paddingBottom="1dp">
+
+    <ImageButton
+        android:id="@+id/scanQrButton"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical|center_horizontal|bottom"
+        android:paddingBottom="1dp"
+        android:src="@drawable/scanqr" />
+</LinearLayout>

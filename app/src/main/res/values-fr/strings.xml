@@ -1,0 +1,508 @@
+<resources>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="defualtPromoCount">30</string>
+
+    <string name="app_name">Avis.help</string>
+    <string name="title_activity_login">S\'identifier</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">S\'identifier</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">S\'identifier</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="homeTitle">Accueil</string>
+    <string name="authRevieTitle">Avis identifié</string>
+    <string name="anonRevieTitle">Avis anonyme</string>
+
+    //login
+    <string name="forgotPass">Mot de passe oublié?</string>
+    <string name="loginButton">S\'identifier</string>
+    <string name="mainDescriotionOfApp">Plateforme de communication client</string>
+    <string name="internet_connection">Pas de connexion Internet</string>
+
+    <string name="hint_sign_in">S\'identifier</string>
+    <string name="hint_sign_in_with_fb">Connectez-vous avec Facebook</string>
+    <string name="hint_sign_in_with_google">Connectez-vous avec Google</string>
+    <string name="hint_or">OU</string>
+
+    <string name="tv_dont_have_account">Je n\'ai pas de compte?</string>
+    <string name="btn_sign_up"><u>S\'inscrire</u></string>
+
+    <string name="hint_sign_up">S\'inscrire</string>
+    <string name="hint_sign_up_with_fb">Inscrivez-vous avec Facebook</string>
+    <string name="hint_sign_up_with_google">Inscrivez-vous avec Google</string>
+
+    <string name="tv_have_account">Avoir un compte?</string>
+    <string name="btn_sign_in"><u>Se connecter</u></string>
+    <string name="password_quantity">min 6 symboles</string>
+
+
+    //home
+    <string name="fromButton">De:</string>
+    <string name="toButton">À:</string>
+
+
+    <string name="selectYourBranchTitle">Sélectionnez votre lieu</string>
+    <string name="todayButton">Aujourd\'hui</string>
+    <string name="weekButton">Semaine</string>
+    <string name="monthButton">Mois</string>
+
+    <string name="totalReviwTitle">Avis</string>
+    <string name="totalConversationTitle">Chats</string>
+    <string name="overalRatingTitle">Note globale</string>
+    <string name="statsTitle">Vos stats</string>
+
+    <string name="tvChart">Aucune donnée pour la période sélectionnée</string>
+
+    <string name="tvGoToWeb">Aller à la version web pour voir une statistique plus large</string>
+
+    //review list
+    <string name="detailsTitle">Détails</string>
+    <string name="reviewIdTitle">La revue #</string>
+    <string name="createdTitle">Créé</string>
+    <string name="viewedTitle">Vu</string>
+    <string name="answeredTitle">Réponse</string>
+
+    <string name="answeredItem">Réponse</string>
+    <string name="unansweredItem">Sans reponse</string>
+
+    <string name="vieweddItem">Vu</string>
+    <string name="unviewedItem">Sans  vu</string>
+
+    //InfoRevie
+    <string name="createdReviewTitle">Créé à</string>
+    <string name="viwedReviwedTitle">Vu à</string>
+    <string name="branchRevieTitle">Votre lieu</string>
+    <string name="qrRevieTitle">Type de QR</string>
+    <string name="impressionRevieTitle">Impression générale</string>
+    <string name="telephoneReviewTitle">Téléphone:</string>
+    <string name="commentRevieTitle">Commentaire</string>
+    <string name="photoRevieTitle">Photo</string>
+    <string name="executionReviewTitle">Statut</string>
+    <string name="newRevieTitle">Nouveau</string>
+    <string name="inProgressRevieTitle">En cours</string>
+    <string name="closedRevieTitle">Fermée</string>
+    <string name="addCommentRevieTitle">Ajouter un commentaire</string>
+    <string name="goToConversationButton">Aller à la conversation</string>
+
+    <string name="goConversationTitle">Conversation</string>
+    <string name="goAuthRevieTitle">Avis identifié</string>
+    <string name="goAnonRevieTitle">Authorized reviews</string>
+    <string name="goToRevieTitle">Aller à la critique</string>
+    <string name="profileTitle">Profil</string>
+    //anon review
+    <string name="noNumberTitle">Non</string>
+
+    //Profile screen
+    <string name="addAvatarButton">Ajouter une photo</string>
+    <string name="saveButton">Sauver</string>
+    <string name="btnSaveName">ENREGISTRER LE NOM</string>
+    <string name="logoutButton"><u>Déconnexion</u></string>
+    <string name="avatarHint">JPG et PNG uniquement, au moins 400 x 400 pixels</string>
+    <string name="emailTitle">Email</string>
+    <string name="currentPassTitle">Mot de passe actuel*</string>
+    <string name="nameTitle">Prénom</string>
+    <string name="surnameTitle">Entrez le nom de famille</string>
+    <string name="telephoneNumberTitle">Numéro de téléphone</string>
+
+    //company
+    <string name="enterCompanyName">Créer un nom</string>
+    <string name="companyTitle">Entreprise</string>
+    <string name="branchesTitle">Votre lieu</string>
+    <string name="btnAddBranch">AJOUTER UNE BRANCHE +</string>
+    <string name="addBranchButtonG">Ajouter un lieu</string>
+    <string name="addBranchButton"><u>Ajouter un lieu +</u></string>
+    <string name="addBranchButtonH"><u>Ajouter un lieu -</u></string>
+    <string name="yourBranchTitle">Votre branche</string>
+
+    <string name="generalQrCompanyName">Général</string>
+    <string name="cleannessQrCompanyName">Propreté</string>
+    <string name="serviceQrCompanyName">Un service</string>
+    <string name="downloadButtonCompanyName">Télécharger</string>
+
+
+    <string name="createBranchName">Entrez le nom du lieu</string>
+    <string name="createAddressName">Entrez l\'adresse du lieu</string>
+    <string name="createContactName">Entrez le numéro de contact</string>
+    <string name="createPhoneName">Phone</string>
+
+    <string name="tvImageForReviewPage">L\'image sera affichée sur votre page d\'avis si lieu n\'a pas de logo</string>
+    <string name="tvBranchGoToWeb">Aller à la version de bureau pour gérer vos branches</string>
+
+    //menu
+    <string name="menuHome">Accueil</string>
+    <string name="menuReview">Avis</string>
+    <string name="menuAnonRev">Avis anonyme</string>
+    <string name="menuChats">Chats</string>
+    <string name="menuCompany">Entreprise</string>
+    <string name="menuPromoCodes">Code promo</string>
+    <string name="menuProfile">Profil</string>
+    <string name="menuQRManager">QR manager</string>
+    <string name="menuBilling">Facturation</string>
+    <string name="menuCTA">CTA</string>
+    <string name="menuSettings">Réglages</string>
+
+    //promocode
+    <string name="promoCodeTitle">Code promo</string>
+    <string name="createPromoTitle">Créer un nouveau code promo</string>
+    <string name="namePromoHint">Créer un nom</string>
+    <string name="descriptionNameHint">Créer une description (max 200 symboles)</string>
+    <string name="validPromoTitle">Valable</string>
+    <string name="daysTitle">jours</string>
+    <string name="addIconPromoButton">Ajouter une icône</string>
+    <string name="chooseIconPromoButton">Choose your icon</string>
+
+    <string name="enterPhoneNumberHint">Entrez le numéro de téléphone</string>
+    <string name="sendPhoneNumberHint">À envoyer</string>
+
+    <string name="sendPromoCodeText">Envoyer un code promotionnel</string>
+
+    <string name="existPromoTitle">Vos codes promo</string>
+    <string name="promoCodeSent">Code promo envoyé</string>
+
+
+    //view promo qr
+
+    <string name="goToPromoCodes">Code promo</string>
+    <string name="promoCodesTitle">Promo</string>
+    <string name="dueDateTitle">Date : </string>
+
+
+    //conversation
+    <string name="conversationtitle">Conversation</string>
+    <string name="bactToRevieButton">Aller à la critique</string>
+    <string name="hintWriteTextConversation">Tapez un content</string>
+    <string name="inviteTitle">Inviter à discuter</string>
+
+    <string name="imviteText">Invite string link</string>
+
+    <string name="addIconTitle">Ajouter une icône</string>
+
+
+    //scan qr
+    <string name="applyButton">Appliquer</string>
+    <string name="scanQrDescription">Scannez le QR code dans le cadre </string>
+
+    //settings
+    <string name="settingsTitle">Réglages</string>
+    <string name="languageTitle">Langue</string>
+    <string name="currencyTitle">Devise</string>
+    <string name="notificationsTitle">Notifications</string>
+
+    <string name="frenchTitle">Français</string>
+    <string name="ukraineTitle">Українська</string>
+    <string name="englishTitle">English</string>
+
+    <string name="saveCommentToast">Commentaire enregistré</string>
+    <string name="deleteBranchQ">Delete branch and all related reviews, are you sure?</string>
+    <string name="wrongLogin">Nom d\'utilisateur / mot de passe incorrect</string>
+    <string name="authorized">Vous êtes autorisé</string>
+    <string name="invalidPromo">Code promo invalide</string>
+    <string name="promoDeactivatQ">Code promo désactivé</string>
+    <string name="fillAllFields">S\'il vous plaît veuillez remplir tous les champs manquants</string>
+    <string name="connexionToInternet">Erreur de récupération de données. Vérifier la connexion internet</string>
+    <string name="inviteChat">Vous êtes invité au chat avec</string>
+    <string name="promoDeleted">Le code promo a été supprimé</string>
+    <string name="promoAdedd">Le code promo a été ajouté</string>
+    <string name="branchAdd">Votre lieu a été ajouté</string>
+    <string name="profileUpdated">Le profil a été mis à jour</string>
+    <string name="companyAdd">La société a été ajoutée</string>
+    <string name="branchDelete">Votre lieu a été supprimée</string>
+    <string name="photoUpload">télécharger un logo (pour la page de l\'entreprise) / une photo (pour la page du profil)</string>
+    <string name="error">Aww... Don\'t cry, here\'s whats wrong:</string>
+
+    <string name="newNotif">Nouvelle notification</string>
+    <string name="delete">Effacer</string>
+
+    <string name="_0">cookie</string>
+    <string name="_1">fish</string>
+    <string name="_2">hotdog</string>
+    <string name="_3">hamburger</string>
+    <string name="_4">pizza-slice</string>
+    <string name="_5">comment-medical</string>
+    <string name="_6">hand-middle-finger</string>
+    <string name="_7">award</string>
+    <string name="_8">bed</string>
+    <string name="_9">beer</string>
+    <string name="_10">bowling-ball</string>
+    <string name="_11">box-open</string>
+    <string name="_12">cocktail</string>
+    <string name="_13">coffee</string>
+    <string name="_14">concierge-bell</string>
+    <string name="_15">capsules</string>
+    <string name="_16">couch</string>
+    <string name="_17">dumbbell</string>
+    <string name="_18">dolly</string>
+    <string name="_19">film</string>
+    <string name="_20">first-aid</string>
+    <string name="_21">gas-pump</string>
+    <string name="_22">gamepad</string>
+    <string name="_23">gift</string>
+    <string name="_24">gem</string>
+    <string name="_25">glass-cheers</string>
+    <string name="_26">glass-whiskey</string>
+    <string name="_27">globe-americas</string>
+    <string name="_28">grin-alt</string>
+    <string name="_29">hand-holding-heart</string>
+    <string name="_30">heart</string>
+    <string name="_31">heartbeat</string>
+    <string name="_32">ice-cream</string>
+    <string name="_33">info-circle</string>
+    <string name="_34">mars-double</string>
+    <string name="_35">mars-stroke-v</string>
+    <string name="_36">microphone</string>
+    <string name="_37">money-bill</string>
+    <string name="_38">mug-hot</string>
+    <string name="_39">oil-can</string>
+    <string name="_40">parking</string>
+    <string name="_41">plane</string>
+    <string name="_42">receipt</string>
+    <string name="_43">ship</string>
+    <string name="_44">shipping-fast</string>
+    <string name="_45">shopping-cart</string>
+    <string name="_46">shuttle-van</string>
+    <string name="_47">skating</string>
+    <string name="_48">snowboarding</string>
+    <string name="_49">skiing</string>
+    <string name="_50">socks</string>
+    <string name="_51">spa</string>
+    <string name="_52">star</string>
+    <string name="_53">subway</string>
+    <string name="_54">suitcase</string>
+    <string name="_55">swimmer</string>
+    <string name="_56">tag</string>
+    <string name="_57">table-tennis</string>
+    <string name="_58">theater-masks</string>
+    <string name="_59">ticket-alt</string>
+    <string name="_60">tooth</string>
+    <string name="_61">transgender</string>
+    <string name="_62">train</string>
+    <string name="_63">trophy</string>
+    <string name="_64">user-clock</string>
+    <string name="_65">user-graduate</string>
+    <string name="_66">user-md</string>
+    <string name="_67">vr-cardboard</string>
+    <string name="_68">wrench</string>
+    <string name="smsicon">comments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your content history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New content notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="russianTitle">Русский</string>
+
+    <string name="nps_no_data">Aucune donnée</string>
+    <string name="nps_score">Score NPS</string>
+    <string name="all_branches">Tous les lieux</string>
+    <string name="branches">Tous les lieux</string>
+
+    <string name="tv_promoters">Les promoteurs</string>
+    <string name="tv_passives">Passifs</string>
+    <string name="tv_detractors">Les détracteurs</string>
+
+    <string name="select">Sélectionner</string>
+    <string name="selectPoint">Sélectionnez l\'un des point</string>
+    <string name="selectChartType">Sélectionnez la note</string>
+
+    <string name="btnSAVE">ENREGISTRER</string>
+    <string name="branchQRs">Branch QRs</string>
+    <string name="toast_field_can_not_be_empty">Le champ ne peut pas être vide</string>
+    <string name="tvCompanyRegistration">Enregistrement de la société</string>
+    <string name="team">Équipe</string>
+    <string name="urgent_action_required">Action urgente requise</string>
+    <string name="tvPressTheButton">Appuyez sur le bouton une fois le problème résolu</string>
+    <string name="btnDone">Terminé</string>
+    <string name="tvPhotoForChat">La photo sera affichée sur une page de discussion avec vos clients.</string>
+    <string name="changePassword">Changer le mot de passe</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="hint_enter_your_password">Tapez votre mot de passe</string>
+    <string name="hint_enter_new_password">Entrez un nouveau mot de passe</string>
+    <string name="hint_confirm_new_password">Confirmer le nouveau mot de passe</string>
+    <string name="tv_splash_screen">Plateforme\nde communication\nclient</string>
+    <string name="tv_billing">Accédez à la version web pour gérer votre facturation</string>
+    <string name="tv_team">Accédez à la version Web pour gérer votre équipe.</string>
+    <string name="btnFilter">Filtre</string>
+    <string name="btnSort">Trier</string>
+    <string name="qrCategory">Catégorie QR:</string>
+    <string name="tvRating">Évaluation:</string>
+    <string name="tvComment">Commentaire:</string>
+    <string name="enterComment">Entrez un commentaire</string>
+    <string name="branch">Branche</string>
+    <string name="newReview">Nouvelle révision</string>
+    <string name="newMessage">Nouveau content enQ discussion</string>
+    <string name="newCTA">Action urgente requise!</string>
+    <string name="addPromoCode">Ajouter un code promo +</string>
+    <string name="enterName">Entrez le nom</string>
+    <string name="enterDescription">Entrez une description (200 symboles max)</string>
+    <string name="selectIcon">Sélectionnez une icône</string>
+    <string name="cancelAction">ANNULER</string>
+    <string name="scrollToBottom">Faites défiler vers le bas pour voir l\'élément restauré</string>
+    <string name="removedFromPromoCodes">retiré des codes promo</string>
+    <string name="termsConditions">Termes et conditions</string>
+    <string name="ctaTitle">CTA</string>
+    <string name="surveyTitle">Sondage</string>
+    <string name="opinionTitle">Opinion</string>
+    <string name="landingPageTitle">Landing</string>
+    <string name="callToActionTitle">Appel à l\'action</string>
+    <string name="selectQrType">Sélectionnez un type de QR</string>
+    <string name="addQrCode">Ajouter un code QR +</string>
+    <string name="invite">Inviter</string>
+    <string name="absolutely_sure">ÊTES-VOUS ABSOLUMENT SÛR?</string>
+    <string name="action_cannot_be_undone">Cette action NE PEUT pas être annulée. Cela supprimera définitivement </string>
+    <string name="type_word_delete">Veuillez saisir ci-dessous EFFACER pour confirmer</string>
+    <string name="DELETE">EFFACER</string>
+    <string name="applyPromoCode">Appliquer le code promo</string>
+    <string name="applyPromoCodeSmall">Appliquez le code promo</string>
+    <string name="available_soon">Bientôt disponible</string>
+    <string name="enterQRName">Entrez le nom de la QR</string>
+    <string name="enterQuestion">Entrez une question (max 600 symboles)</string>
+    <string name="enter_success_message">Entrer un content de réussite (jusqu\'à 50 symboles)</string>
+    <string name="enter_an_answer">Entrer une réponse (max. 50 symboles)</string>
+    <string name="addAnswer">Ajouter une réponse</string>
+    <string name="editAnswer">Modifier une réponse</string>
+    <string name="enter_promo_code_id">Entrez l\'ID du code promo</string>
+    <string name="btnApply">APPLIQUER</string>
+    <string name="code_id_should_be_six_numbers">Le code d\'identification doit comporter 6 chiffres et ne contenir que des lettres majuscules.</string>
+    <string name="usage_of_the_app">Utilisation de l\'application</string>
+    <string name="usage_of_the_app_text">Le sur l\'application avis.help vous permet de télécharger vos propres documents pour une utilisation personnelle non commerciale, à condition que vous conserviez toutes les informations de droit d\'auteur et d\'autres informations relatives à la propriété des documents sources et de leurs copies. Vous ne pouvez pas modifier les documents présents sur ce application, ni les distribuer, les afficher de quelque manière que ce soit ou les utiliser de quelque manière que ce soit à des fins publiques ou commerciales. Toute utilisation de ces documents sur d\'autres applications ou sur des réseaux informatiques est interdite.</string>
+    <string name="denial_of_responsibility">Déni de responsabilité</string>
+    <string name="denial_of_responsibility_app">Le mat\ériel et les services de ce sur l\'application sont fournis \'tels quels\' sans aucune garantie de la part des utilisateurs eux-m\êmes. Nous ne garantissons pas l\'exactitude et l\'exhaustivité des documents, des images et des commentaires. Nous pouvons apporter des modifications au mat\ériel et aux services fournis sur l\'application \à tout moment et sans pr\éavis. En cas d\’obsolescence des mat\ériaux et des services sur l\'application, nous ne sommes pas oblig\és de les mettre \à jour. Nous ne sommes enQ aucun cas responsables des dommages (y compris, mais sans limitation, des dommages r\ésultant d\'une perte de b\én\éfices, d\'une perte de données ou d\'une interruption des activit\és) r\ésultant de l\'utilisation, de l\'impossibilité d\'utilisation ou des r\ésultats de l\'utilisation de ce application.</string>
+    <string name="posting_messages_on_the_app">Poster des messages sur le application</string>
+    <string name="posting_messages_on_the_app_text">En nous contactant ou enQ laissant un content sur l\'application, vous êtes responsable du fait qu\'un tel content est légal, non dangereux, ne constitue pas une menace, ne supporte pas la nature de la calomnie, ne contredit pas l\'éthique, ne viole pas le droit d\'auteur , n\'encourage pas la haine et / ou la discrimination à l\'encontre des personnes pour des motifs raciaux, ethniques, sexuels, religieux ou sociaux, ne contient pas d\'insultes à l\'encontre de certaines personnes ou organisations et ne viole d\'aucune autre manière la législation enQ vigueur de l\'UE et des États-Unis et / ou d\'autres pays dans lesquels le matériel et les services de sur l\'application sont disponibles. Nous ne sommes pas responsables des informations postées par d\'autres utilisateurs du sur l\'application. En laissant un avis de 9h00 à 21h00 avec la confirmation de votre numéro de téléphone mobile, vous acceptez de recevoir une réponse par SMS au cours de la période actuelle.</string>
+    <string name="feedback_and_comments">Commentaires</string>
+    <string name="feedback_and_comments_text">En nous adressant ou enQ laissant un content sur le site, vous \êtes responsable de ce que le content n\'est pas ill\égal, préjudiciable, menaçant, diffamatoire, offense la morale, viole les droits d\'auteur, encourage la haine et / ou la discrimination des personnes pour des motifs raciaux, ethniques, sexuels, religieux, etc. enQ vedette, contient des insultes envers des individus ou des organisations spécifiques, ainsi que de toute autre manière contrevient à la l\égislation enQ vigueur dans les pays de l\’UE et aux États-Unis et / ou dans d\’autres pays sur le territoire duquel la s\érie mat et les services de sur l\'application. Vous acceptez que l\'un de vos messages puisse être supprim\é sans votre consentement et laiss\é sans r\éponse sans explication. Nous ne sommes responsables d\'aucune autre information post\ée par d\'autres utilisateurs du sur l\'application. En laissant un avis de 9h00 à 21h00 et enQ confirmant votre numéro de t\él\éphone portable, vous acceptez que vous nous transmettiez vos commentaires, par SMS, pendant une p\ériode donn\ée.</string>
+    <string name="use_of_personal_data">Utilisation de données personnelles</string>
+    <string name="use_of_personal_data_text">En utilisant notre produit, vous acceptez l\'utilisation de vos données conformément à la législation enQ vigueur dans les pays de l\'UE (RGPD 2018) et aux États-Unis et / ou dans d\'autres pays sur le territoire duquel le matériel et les services de sur l\'application sont disponibles. Nous collectons les données personnelles suivantes: nom; nom de famille; numéro de téléphone; une photo. Nous ne recueillons pas d\'informations personnelles autres que celles nécessaires pour fournir et améliorer nos produits / services. Nous ne vendons pas de données utilisateur personnelles et utilisons les informations que nous collectons uniquement pour fournir et améliorer nos produits et services. Nous partageons vos données personnelles avec nos fournisseurs / clients. Nous concluons des accords sur la confidentialité et le traitement des données avec chacun de nos fournisseurs / clients afin de nous assurer qu\'ils respectent un haut niveau de confidentialité et des méthodes efficaces, ainsi que des normes de confidentialité et de sécurité. Pour plus d\'informations sur la manière dont nos fournisseurs / clients ou leurs clients finaux utilisent les informations qu\'ils collectent à l\'aide de nos produits et services, vous pouvez vous reporter à leur politique de confidentialité spécifique ou contacter directement cette société.</string>
+    <string name="data_storage">Stockage de données</string>
+    <string name="data_storage_text">Nous stockons vos données personnelles aussi longtemps qu\'elles sont nécessaires aux fins pour lesquelles elles ont été collectées à l\'origine ou pendant une période fixée par la loi enQ vigueur. Pour plus d\'informations sur les politiques de stockage de nos fournisseurs / clients ou de leurs clients finaux, contactez l\'entreprise appropri\ée.</string>
+    <string name="you_cant_save_empty_field">Vous ne pouvez pas enregistrer un champ vide</string>
+    <string name="tvClickedCount">Cliqué</string>
+    <string name="reaction_time_avg">Temps de réaction (moyen)</string>
+    <string name="allReviews">Commentaire</string>
+    <string name="allChats">Les conversations</string>
+    <string name="tvGeneratedQRs">Generated QRs</string>
+    <string name="enterPromoName">Entrez le nom</string>
+    <string name="tvImageForCompany">L\'image sera affichée sur votre page d\'avis si lieu n\'a pas de logo</string>
+    <string name="tvImageForBranch">L\'image sera affichée sur votre page de révision</string>
+    <string name="enterSurname">Entrez le nom de famille</string>
+    <string name="enterContactNumber">Entrez le numéro de contact</string>
+    <string name="selectLanguage">Choisir la langue</string>
+    <string name="passwords_do_not_match">Les mots de passe ne correspondent pas</string>
+    <string name="password_changed_successfully">Le mot de passe a été changé avec succès</string>
+    <string name="password_must_contain_from_six_to_twenty">Le mot de passe doit contenir entre 6 et 20 caractères.</string>
+    <string name="choose_category">Choisissez une catégorie</string>
+    <string name="code_does_not_exist">Ce code n\'existe pas</string>
+    <string name="branchSaved">Branche sauvegardée</string>
+    <string name="editBranch">Modifier la branche</string>
+    <string name="qrDeleted">Qr code supprimé</string>
+    <string name="choose_branch">Choisissez une branche</string>
+    <string name="answer_deleted">Réponse supprimée</string>
+    <string name="answer_edited">Réponse modifiée</string>
+    <string name="answer_added">Réponse ajoutée</string>
+    <string name="cta_is_added">CTA QR est créé</string>
+    <string name="you_didnt_select_branch">Vous n\'avez pas sélectionné de branche</string>
+    <string name="you_didnt_write_name_for_qr">Tu n\'as pas écrit un nom</string>
+    <string name="you_didnt_add_answers">Vous n\'avez pas ajouté de réponses</string>
+    <string name="add_or_select_answers">Ajouter ou sélectionner des réponses</string>
+    <string name="you_didnt_select_answers">Vous n\'avez pas sélectionné de réponses</string>
+    <string name="add_or_select_qr_category">Ajouter ou sélectionner une catégorie Qr</string>
+    <string name="addCategory">Ajouter une catégorie</string>
+    <string name="editCategory">Modifier la catégorie</string>
+    <string name="category_added">Catégorie ajoutée</string>
+    <string name="category_edited">Catégorie modifiée</string>
+    <string name="category_deleted">Catégorie supprimée</string>
+    <string name="opinion_is_added">L\'avis est ajouté</string>
+    <string name="enter_qr_category_name">Entrez le nom de la catégorie QR</string>
+    <string name="qr_updated">Qr mis à jour</string>
+    <string name="email_field_must_be_filled">Le champ email doit être rempli</string>
+    <string name="тew_password_sent">Nouveau mot de passe envoyé par email</string>
+    <string name="edit_answers_spinner">Modifier la liste des réponses</string>
+    <string name="image_saved">Image enregistrée</string>
+    <string name="organization_is_added">Organisation créée</string>
+    <string name="categories">Les catégories</string>
+    <string name="qrs">QRs</string>
+    <string name="branch_deleted">Branche supprimée</string>
+    <string name="invitation_completed">L\'invitation est remplie</string>
+    <string name="chat_with">Parler avec</string>
+    <string name="you_havent_access">Vous n\'avez pas accès</string>
+</resources>

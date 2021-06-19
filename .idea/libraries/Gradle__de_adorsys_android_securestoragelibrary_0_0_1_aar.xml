@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: de.adorsys.android:securestoragelibrary:0.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15d0eb1c1ebc453fc953e00a8c5f0670/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15d0eb1c1ebc453fc953e00a8c5f0670/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15d0eb1c1ebc453fc953e00a8c5f0670/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef31b7497fe6c515ce1b9c860e8519d3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef31b7497fe6c515ce1b9c860e8519d3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef31b7497fe6c515ce1b9c860e8519d3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.adorsys.android/securestoragelibrary/0.0.1/cd53b48c109ab493917d74177d53837ce4e64f19/securestoragelibrary-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

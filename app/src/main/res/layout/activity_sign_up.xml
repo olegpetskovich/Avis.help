@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        tools:context=".view.LoginActivity">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="8dp"
+            android:theme="@style/ProgressStyle"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/loginLogo"
+            android:layout_width="205dp"
+            android:layout_height="98dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/logo_avis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/etLoginLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginLogo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/emailTitle"
+                android:inputType="text"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@drawable/edit_text_cursor_color"
+                android:textSize="14sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/etPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etLoginLayout"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                app:hintAnimationEnabled="false"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passwordInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/prompt_password"
+                    android:inputType="textPassword"
+                    android:padding="14dp"
+                    android:textCursorDrawable="@drawable/edit_text_cursor_color"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/btnForgotPassword"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/password_quantity"
+            android:textAllCaps="false"
+            android:textColor="@color/colorDark"
+            android:textSize="12sp"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etLoginLayout" />
+
+        <com.dagang.library.GradientButton
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="30dp"
+            app:button_end_color="#ffe95858"
+            app:button_gradient_orientation="LEFT_RIGHT"
+            app:button_is_shadowed="true"
+            app:button_press_end_color="#F38585"
+            app:button_press_start_color="#F38585"
+            app:button_radius="30dp"
+            app:button_shadow_angle="90"
+            app:button_shadow_color="@android:color/darker_gray"
+            app:button_shadow_distance="1dp"
+            app:button_shadow_radius="3dp"
+            app:button_size="5sp"
+            app:button_start_color="#fff69191"
+            app:button_text="@string/hint_sign_up"
+            app:button_text_color="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnForgotPassword" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/hint_or"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+
+        <com.dagang.library.GradientButton
+            android:id="@+id/btnSignUpWithFB"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="30dp"
+            app:button_end_color="#ff49588e"
+            app:button_gradient_orientation="LEFT_RIGHT"
+            app:button_is_shadowed="true"
+            app:button_press_end_color="#586AA8"
+            app:button_press_start_color="#586AA8"
+            app:button_radius="30dp"
+            app:button_shadow_angle="90"
+            app:button_shadow_color="@android:color/darker_gray"
+            app:button_shadow_distance="1dp"
+            app:button_shadow_radius="3dp"
+            app:button_size="5sp"
+            app:button_start_color="#ff49588e"
+            app:button_text="@string/hint_sign_up_with_fb"
+            app:button_text_color="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <com.dagang.library.GradientButton
+            android:id="@+id/btnSignUpWithGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="30dp"
+            app:button_end_color="#ff5286eb"
+            app:button_gradient_orientation="LEFT_RIGHT"
+            app:button_is_shadowed="true"
+            app:button_press_end_color="#6393F0"
+            app:button_press_start_color="#6393F0"
+            app:button_radius="30dp"
+            app:button_shadow_angle="90"
+            app:button_shadow_color="@android:color/darker_gray"
+            app:button_shadow_distance="1dp"
+            app:button_shadow_radius="3dp"
+            app:button_size="5sp"
+            app:button_start_color="#ff5286eb"
+            app:button_text="@string/hint_sign_up_with_google"
+            app:button_text_color="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignUpWithFB" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/tv_have_account"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignUpWithGoogle" />
+
+        <com.dagang.library.GradientButton
+            android:id="@+id/btnBottomSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="6dp"
+            app:button_end_color="@android:color/white"
+            app:button_is_shadowed="false"
+            app:button_press_end_color="#F8F8F8"
+            app:button_press_start_color="#F8F8F8"
+            app:button_radius="10dp"
+            app:button_start_color="@android:color/white"
+            app:button_text="@string/btn_sign_in"
+            app:button_text_color="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

@@ -1,0 +1,54 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_barcodeReader_container"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:keepScreenOn="true">
+
+    <com.pinus.alexdev.avis.barcodereader.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center|center_vertical"
+        android:gravity="center">
+
+        <com.pinus.alexdev.avis.barcodereader.ui.camera.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </com.pinus.alexdev.avis.barcodereader.ui.camera.CameraSourcePreview>
+
+    <ImageButton
+        android:id="@+id/backFrom"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/gradient_login"
+        android:src="@drawable/arrow_back" />
+
+
+    <ImageView
+        android:layout_width="356dp"
+        android:layout_height="353dp"
+        android:layout_gravity="center"
+        android:src="@drawable/scanner_view" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/applyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="70dp"
+        app:backgroundTint="@color/colorPrimary"
+        android:text="@string/applyButton"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

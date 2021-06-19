@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".view.promo_code_activity.SendPromoCodeActivity">
+
+    <include
+        android:id="@+id/appbar_back"
+        layout="@layout/appbar_back"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/deletePromoButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/appbar_back"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@null"
+        android:focusable="true"
+        android:src="@drawable/ic_delete" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/infoCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deletePromoButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/infoCard"
+            android:orientation="vertical"
+            android:paddingStart="6dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/promoCodeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/iconText"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Free coffee" />
+
+            <com.pinus.alexdev.avis.Helper.IconTextView
+                android:id="@+id/iconText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/_3"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dueDateTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/iconText"
+                app:layout_constraintStart_toEndOf="@+id/iconText"
+                app:layout_constraintTop_toBottomOf="@+id/promoCodeTitle"
+                tools:text="Free coffee" />
+
+            <TextView
+                android:id="@+id/promoDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconText"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/numberCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoCard"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        app:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="2dp"
+            android:paddingBottom="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="horizontal">
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/codePhoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    app:ccp_textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/enterPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorDark"
+                    android:textSize="15sp"
+                    android:theme="@style/MyEditTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.dagang.library.GradientButton
+        android:id="@+id/btnSendPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/numberCard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        app:button_end_color="#ffe95858"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="true"
+        app:button_press_end_color="#F38585"
+        app:button_press_start_color="#F38585"
+        app:button_radius="30dp"
+        app:button_shadow_angle="90"
+        app:button_shadow_color="@android:color/darker_gray"
+        app:button_shadow_distance="1dp"
+        app:button_shadow_radius="3dp"
+        app:button_size="7sp"
+        app:button_start_color="#fff69191"
+        app:button_text="@string/sendPhoneNumberHint"
+        app:button_text_color="@android:color/white" />
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer_button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5dp" />
+</RelativeLayout>
